@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f8b400;
+  padding: 20px;
+  color: white;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #f8b400;
+  transition: width 0.4s ease-in-out;
+}
+
+.search-bar input:focus {
+  width: 400px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.product-card p {
+  color: #f8b400;
+  font-size: 1.2em;
+}
+
+.product-card button {
+  background-color: #f8b400;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #e6a200;
+}
+
+.App-footer {
+  background-color: #f8b400;
+  padding: 20px;
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
