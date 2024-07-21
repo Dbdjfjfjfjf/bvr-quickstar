@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       <Title>TESTE</Title>
       <h1>Ruan!</h1>
-      <Counter />
+      
     </main>
   );
 }
